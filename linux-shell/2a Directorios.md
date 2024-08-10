@@ -9,7 +9,8 @@ footer: Material OSEC - CC BY-NC-SA
 
 # **Visualizando $HOME**
 
-Introducción a las coreutils *pwd* y *ls*.
+Introducción al coreutil *ls*.
+Introducción al builtin *pwd*.
 Convensiones de directorios y *dotfiles*.
 
 ---
