@@ -12,6 +12,7 @@ footer: Material OSEC - CC BY-NC-SA
 Repaso del comando *pwd*.
 Introducción al comando *tree*.
 Uso de rutas absolutas como argumentos.
+Introducción al builtin *cd*.
 
 ---
 
@@ -72,3 +73,20 @@ $ tree -L 1 $HOME
 
 * *$HOME* se *expande* como `/home/user` antes de ejecutarse.
    * La shell reemplazará *user* con el nombre que corresponda.
+
+---
+
+# Cambiar Working Directory
+
+Para cambiar el directorio actual.
+
+```
+$ cd <ruta>
+```
+
+* Puede leerse como *Change Directory to <ruta>*
+  * Reemplazar *<ruta>* con una ruta absoluta o relativa.
+
+* El atajo `cd -` regresa al *Working Directory* anterior.
+
+* El atajo `cd ~` lleva al $HOME del usuario de la sesión.
