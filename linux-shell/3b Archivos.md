@@ -303,3 +303,21 @@ $ chmod ugo+rwx myDocumento
 * Para quitar los permisos reemplazar `+` por `-`.
 
 * Las operaciones son agrupables.
+
+---
+
+# umask &ndash; user file-creation mode mask
+
+Define los permisos por omisión en la sesión de la shell al momento de crear nuevos archivos.
+
+```
+$ umask
+```
+
+* Retorna *la máscara* en forma octal.
+
+```
+$ umask -S
+```
+
+* Retorna *los permisos resultantes* en notación simbólica.
